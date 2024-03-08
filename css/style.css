@@ -1,9 +1,13 @@
-.inline-block {
+li.inline-block {
     display: inline-block;
-    vertical-align: top;
+    padding: 10px;
 }
-
-
+div.nav {
+    text-align: center;
+}
+.footerNav {
+    text-align: center;
+}
 .logo {
     display: block;
     width: 300px;
@@ -12,9 +16,8 @@
 }
 
 ul {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 92%;
+    align-items: center;
 }
 
 nav {
@@ -47,20 +50,68 @@ footer {
 
 h2 {
     font-family: "Averia Serif Libre", serif;
+    margin-left: 30px;
+}
+
+h3 {
+    font-family: "Averia Serif Libre", serif;
 }
 
 h4 {
     font-family: "Averia Serif Libre", serif;
     width: 100%;
-    margin-left: auto;
-    margin-right; auto;
+    text-align: center;
 }
 
 li {
     font-family: "Averia Serif Libre", serif;
 }
 
-.details li {
+li.details {
     font-family: "Open Sans", sans-serif;
     
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+    width: 70%;
+    margin: auto;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    margin: 15px;
+    justify-content; space-evenly;
+    background-color:#FCF5E5;
+    border-radius: 4px;
+}
+.workGrid {
+    display: inline-grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+}
+img.design {
+    width: 90%;
+    padding: 20px;
+    margin: 20px;
+    background-color:#FCF5E5;
+}
+button {
+    background-color: #FCF5E5;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Averia Serif Libre", serif; 
+}
+
+button:hover{
+    transition-duration: 0.4s;
+    background-color: #e0ab6e;
 }
